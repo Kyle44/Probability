@@ -1,12 +1,13 @@
+// File: Probability.cpp
+// Author: Kyle Fritz
+// Date Modified: 4/1/15
+// Description: This program takes in a number between 1 and 100, then uses that probability to tell you
+//   if what you wanted to happen actually occurred or not
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
 
-// File: Probability.cpp
-// Author: Kyle Fritz
-// Modified on 4/1/15
-// Description: This program takes in a number between 1 and 100, then uses that probability to tell you
-//   if what you wanted to happen actually occurred or not
 int main(int argc, char *argv[]) {
   char ans = 'y';
   while(ans == 'y')
